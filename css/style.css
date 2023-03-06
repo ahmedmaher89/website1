@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header {
+    height: 700px;
+    width: 100%;
+    background-image: url( );
+    background-size: cover;
+    background-position: center;
+}
+  /*navbar*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav img {
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+    font-weight: bold;
+}
+nav ul{
+    margin-top: 60px;
+    margin-right: 450px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #74b9ff;
+}
+nav ul li a:hover{
+    color: #6c5ce7;
+    transition: .3s;
+}
+nav ul hr {
+    width: 6%;
+    border: 1px solid #6c5ce7;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 40px;
+    font-weight: bold;
+    color: #74b9ff;
+    margin-top: 60px;
+}
+
+/*end navbar*/
+
+
+.sec_con{
+    display: flex;
+
+}
+.h_p{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.h_p h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #0984e3;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h_p h1 span{
+    color: #6c5ce7;
+}
+.h_p p{
+   font-size: 20px;
+   margin-left: 10px; 
+   color: #74b9ff;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.sec-lef{
+    padding-left: 350px;
+    margin-bottom: 00px;
+   
+}
+.sec1 .img-box{
+    width: 505px;
+    height: 650px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+}
+.img-box .main-img{
+    width: 250px;
+    height: 600px;
+    padding-bottom: 200px;
+}
+.img-box .back-img{
+    padding-top: 30px;
+    width: 800px;
+    height: 650px;
+}
+.img-box .waves{
+    width: 330vh;
+    height: 300px;
+    padding-right: 165vh;
+    position: absolute;
+    top: 450px;
+    
+    
+}
+.img-box .clouds{
+    width: 100%;
+    height: 300px;
+
+}
+/*end header*/
+
+/*section midlle*/
+.sec-mid{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    bottom: 0px;
+    left: 100px;
+}
+.sec-mid .cover{
+    width: 100vh;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.sec-mid .c-lef{
+    position: absolute;
+    top: 150px;
+    right: 1000px;
+    
+}
+.sec-mid .c-lef img{
+    width: 150px;
+}
+.c-lef .p_all{
+    position: relative;
+    right: 50px;
+    
+}
+.sec-mid .c-lef h3{
+    align-items: center;
+    color: #6c5ce7;
+
+}
+.sec-mid .c-lef .p_1{
+    color: #74b9ff;
+    justify-content: center;
+    
+}
+.sec-mid .c-lef .p_2{
+    color: #74b9ff;
+    justify-content: center;
+    padding-left: 50px;
+}
+.sec-mid .c-mid{
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
+}
+.sec-mid .c-mid img{
+    width: 150px;
+}
+.sec-mid .c-mid h3{
+    align-items: center;
+    color: #6c5ce7;
+    position: relative;
+    left: 300px; 
+    bottom: 90px;
+}
+.sec-mid .c-mid div{
+    position: relative;
+    left: 250px;
+    bottom: 85px;
+    color: #74b9ff;
+}
+.sec-mid .c-mid div .p2{
+    padding-left: 20px;
+}
+.sec-mid .c-right{
+    position: absolute;
+    left: 900px;
+    bottom: 30px;
+}
+.sec-mid .c-right img{
+    width: 150px;
+}
+.sec-mid .c-right h3{
+    align-items: center;
+    color: #6c5ce7;
+    position: relative;
+    left: 35px; 
+    bottom: 0px;
+}
+.sec-mid .c-right div{
+    display: block;
+    position: relative;
+    left: -40px;
+    bottom: px;
+    color: #74b9ff;
+
+}
+.sec-mid .c-right .p3{
+    margin-left: 0px;
+}
+.sec-mid .under-left img{
+    position: relative;
+    bottom: 50px;
+}
+.sec-mid .under-left p{
+    position: absolute;
+    top: 580px;
+    left: 120px;
+    font-size: 20px;
+    color: white;
+}
+.sec-mid .under-left p span{
+    font-size: 60px;
+    color: white;
+
+}
+.end-sec .ph_lef{
+    position: relative;
+    top: 280px;
+    left: 100px;
+
+}
+.end-sec .ph_mid{
+    position: relative;
+    top: 350px;
+    left: 150px;
+    height: 550px;
+
+}
+.end-sec .ph_rig{
+    position: relative;
+    left: 200px;
+    top: 320px;
+   
+}
+.end-sec .fa-chevron-left{
+    position: relative;
+    top: 300px;
+    left: 180px;
+    color: #6c5ce7;
+}
+.end-sec .fa-chevron-right{
+    position: relative;
+    top: 300px;
+    left: 150px;
+    color: #6c5ce7;
+}
+.end-sec .text{
+    position: relative;
+    top: 300px;
+    left: 650px;
+    color: #6c5ce7;
+}
+.end-sec .text h2{
+    font-weight: bold;
+    position: relative;
+    right: 30px;
+    top: 20px;
+
+}
+.end-sec .text p{
+    padding-top: 60px;
+    font-size: 23px;
+    position: relative;
+    right: 30px;
+}
+.end-sec .text p span{
+    padding-left: 50px;
+}
+/*end section*/
+
+footer {
+    background-image: url(/img/Group\ 1131.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1740px 900px;
+    position: relative;
+    height: 80vh;
+    top: 250px;
+}
+.end-img{
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    top: 126px;
+    right: 200px;
+
+}
+.fot-end{
+    display: flex;
+}
+.fot-end .but_1{
+    display: flex;
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 370px;
+    left: 150px;
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+}
+.fot-end .but_1 img{
+    padding-top: 7px;
+    padding-left: 15px;
+}
+.fot-end .but_1 p {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.fot-end .but_1 p span{
+    font-weight: bold;
+    color: black;
+}
+.fot-end .but_2{
+    display: flex;
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 370px;
+    left: 350px;
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+}
+.fot-end .but_2 img{
+    padding-top: 8px;
+    padding-left: 15px;
+}
+.fot-end .but_2 p {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.fot-end .but_2 p span{
+    font-weight: bold;
+    color: black;
+}
+.fa-facebook-f{
+    position: relative;
+    top: 500px;
+    left: 280px;
+    font-size: 35px;
+    color: white;
+}
+.fa-whatsapp{
+    position: relative;
+    top: 500px;
+    left: 200px;
+    font-size: 35px;
+    color: white;
+}
+.fa-instagram{
+    position: relative;
+    top: 500px;
+    left: 110px;
+    font-size: 35px;
+    color: white;
+
+}
+.link ul {
+    display: flex;
+    position: relative;
+    top: 510px;
+    left: 150px;
+}
+.link a{
+    position: relative;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+/*end footer*/
+
+
